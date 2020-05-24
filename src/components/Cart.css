@@ -1,0 +1,45 @@
+.main__summary {
+  flex: 3;
+  margin-left: 0.2rem;
+}
+
+.summary__option {
+  display: grid;
+  grid-template-areas:
+    'key cost'
+    'value value';
+  padding: 0.2rem;
+  margin-top: 1rem;
+}
+
+.summary__option__label {
+  font-size: 2.2rem;
+  font-weight: bold;
+  grid-area: key;
+}
+
+.summary__option__value {
+  grid-area: value;
+}
+
+.summary__option__cost {
+  grid-area: cost;
+  text-align: right;
+}
+
+.summary__total {
+  font-size: 2.2rem;
+  line-height: 2.4;
+  display: flex;
+  margin-top: 1.5rem;
+  border-top: solid 1px #252525;
+}
+
+.summary__total__label {
+  font-weight: bold;
+  flex: 2;
+}
+
+.summary__total__value {
+  text-decoration: underline;
+}
