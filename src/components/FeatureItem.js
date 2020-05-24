@@ -8,8 +8,6 @@ import slugify from 'slugify';
 class FeatureItem extends Component { 
   render() {
     const itemHash = slugify(JSON.stringify(this.props.item.name));
-    // console.log(this.props.item);
-    // console.log(this.props.feature);
     return (      
       <div key={itemHash} className="feature__item">
         <input

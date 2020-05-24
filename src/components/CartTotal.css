@@ -1,0 +1,16 @@
+.summary__total {
+  font-size: 2.2rem;
+  line-height: 2.4;
+  display: flex;
+  margin-top: 1.5rem;
+  border-top: solid 1px #252525;
+}
+
+.summary__total__label {
+  font-weight: bold;
+  flex: 2;
+}
+
+.summary__total__value {
+  text-decoration: underline;
+}

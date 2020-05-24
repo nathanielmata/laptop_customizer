@@ -1,0 +1,23 @@
+.summary__option {
+  display: grid;
+  grid-template-areas:
+    'key cost'
+    'value value';
+  padding: 0.2rem;
+  margin-top: 1rem;
+}
+
+.summary__option__label {
+  font-size: 2.2rem;
+  font-weight: bold;
+  grid-area: key;
+}
+
+.summary__option__value {
+  grid-area: value;
+}
+
+.summary__option__cost {
+  grid-area: cost;
+  text-align: right;
+}
